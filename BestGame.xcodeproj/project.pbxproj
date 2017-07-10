@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FCDD0471F13A812006B3345 /* BGHighscoresTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD0461F13A812006B3345 /* BGHighscoresTableViewCell.m */; };
+		3FCDD04A1F13AFA6006B3345 /* BGHighscoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD0491F13AFA6006B3345 /* BGHighscoresViewController.m */; };
+		3FCDD04D1F13B1E7006B3345 /* BGHighscoresManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD04C1F13B1E7006B3345 /* BGHighscoresManager.m */; };
 		3FE8B2AC1F0FB09C0056C19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B2AB1F0FB09C0056C19A /* main.m */; };
 		3FE8B2AF1F0FB09C0056C19A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B2AE1F0FB09C0056C19A /* AppDelegate.m */; };
 		3FE8B2B21F0FB09C0056C19A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B2B11F0FB09C0056C19A /* ViewController.m */; };
 		3FE8B2B51F0FB09C0056C19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8B2B31F0FB09C0056C19A /* Main.storyboard */; };
 		3FE8B2B71F0FB09C0056C19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8B2B61F0FB09C0056C19A /* Assets.xcassets */; };
 		3FE8B2BA1F0FB09C0056C19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8B2B81F0FB09C0056C19A /* LaunchScreen.storyboard */; };
+		3FE8B2C31F0FBE180056C19A /* BGIngameMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B2C21F0FBE180056C19A /* BGIngameMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FCDD0451F13A812006B3345 /* BGHighscoresTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGHighscoresTableViewCell.h; sourceTree = "<group>"; };
+		3FCDD0461F13A812006B3345 /* BGHighscoresTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGHighscoresTableViewCell.m; sourceTree = "<group>"; };
+		3FCDD0481F13AFA6006B3345 /* BGHighscoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGHighscoresViewController.h; sourceTree = "<group>"; };
+		3FCDD0491F13AFA6006B3345 /* BGHighscoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGHighscoresViewController.m; sourceTree = "<group>"; };
+		3FCDD04B1F13B1E7006B3345 /* BGHighscoresManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGHighscoresManager.h; sourceTree = "<group>"; };
+		3FCDD04C1F13B1E7006B3345 /* BGHighscoresManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGHighscoresManager.m; sourceTree = "<group>"; };
 		3FE8B2A71F0FB09B0056C19A /* BestGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE8B2AB1F0FB09C0056C19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FE8B2AD1F0FB09C0056C19A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,8 @@
 		3FE8B2B61F0FB09C0056C19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE8B2B91F0FB09C0056C19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FE8B2BB1F0FB09C0056C19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE8B2C11F0FBE180056C19A /* BGIngameMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGIngameMenuViewController.h; sourceTree = "<group>"; };
+		3FE8B2C21F0FBE180056C19A /* BGIngameMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGIngameMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FCDD04E1F13B219006B3345 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDD04B1F13B1E7006B3345 /* BGHighscoresManager.h */,
+				3FCDD04C1F13B1E7006B3345 /* BGHighscoresManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		3FCDD04F1F13B253006B3345 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDD0451F13A812006B3345 /* BGHighscoresTableViewCell.h */,
+				3FCDD0461F13A812006B3345 /* BGHighscoresTableViewCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
 		3FE8B29E1F0FB09B0056C19A = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +92,12 @@
 				3FE8B2AE1F0FB09C0056C19A /* AppDelegate.m */,
 				3FE8B2B01F0FB09C0056C19A /* ViewController.h */,
 				3FE8B2B11F0FB09C0056C19A /* ViewController.m */,
+				3FE8B2C11F0FBE180056C19A /* BGIngameMenuViewController.h */,
+				3FE8B2C21F0FBE180056C19A /* BGIngameMenuViewController.m */,
+				3FCDD0481F13AFA6006B3345 /* BGHighscoresViewController.h */,
+				3FCDD0491F13AFA6006B3345 /* BGHighscoresViewController.m */,
+				3FCDD04F1F13B253006B3345 /* Table Cells */,
+				3FCDD04E1F13B219006B3345 /* Managers */,
 				3FE8B2B31F0FB09C0056C19A /* Main.storyboard */,
 				3FE8B2B61F0FB09C0056C19A /* Assets.xcassets */,
 				3FE8B2B81F0FB09C0056C19A /* LaunchScreen.storyboard */,
@@ -149,8 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCDD0471F13A812006B3345 /* BGHighscoresTableViewCell.m in Sources */,
 				3FE8B2B21F0FB09C0056C19A /* ViewController.m in Sources */,
+				3FE8B2C31F0FBE180056C19A /* BGIngameMenuViewController.m in Sources */,
 				3FE8B2AF1F0FB09C0056C19A /* AppDelegate.m in Sources */,
+				3FCDD04A1F13AFA6006B3345 /* BGHighscoresViewController.m in Sources */,
+				3FCDD04D1F13B1E7006B3345 /* BGHighscoresManager.m in Sources */,
 				3FE8B2AC1F0FB09C0056C19A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +342,7 @@
 				3FE8B2C01F0FB09C0056C19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
